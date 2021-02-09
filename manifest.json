@@ -1,0 +1,24 @@
+{
+  "name": "Naviagate Chrome Tabs",
+  "description": "A chrome extension to make navigating tabs in chrome easier!",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "Switch_Right": {
+      "suggested_key": {
+        "default": "Ctrl+Right"
+      },
+      "description": "Switch to the tab on the right"
+    },
+    "Switch_Left": {
+      "suggested_key": {
+        "default": "Ctrl+Left"
+      },
+      "description": "Switch to the tab on the left"
+    }
+  }
+}
